@@ -1,43 +1,39 @@
 # ROS2 Gazebo Tutorial Series:
+From Turtlesim to Gazebo: A Beginner-Friendly ROS2 Simulation Tutorial Series
 
-This repository contains simulation environments and a simple mobile robot designed to help beginners transition from turtlesim to Gazebo.
-Also the steps for creating a simulation.
+## Overview
+This project provides a structured ROS2 learning pathway from turtlesim to Gazebo simulation.
 
-## Contents:
-- Clean World: Basic robot movement
-- Obstacle World: Interaction with obstacles
-- Sensor World: Maze type world with Lidar and rosbag usage
-
-## Requirements:
-- ROS2 Humble/Jazzy
-- Ignition or Gazebo SIm
+It introduces three environments:
+- Clean World → Basic motion
+- Obstacle World → Interaction
+- Sensor World → Lidar and data handling
 
 ## Robot
+<ul>
+<li>A simple Mobile Robot.</li>
+<li>Easier for understanding.</li>
+</ul>
+
 ![AMR](images/amr.png)
 
-## Worlds
+## Simulation Worlds
+
 ### Clean World
-<ul>
-  <li>Simple Gazebo environment using SDF and URDF files of the world (walls included) and robot, respectively</li>
-  <li>Robot movement using /cmd_vel</li>
-  <li>Direct mapping from TurtleSim concepts</li>
-</ul>
+Basic environment for learning robot motion using `/cmd_vel`.
 
 ![Clean World](images/clean_world.png)
 
+---
+
 ### Obstacle World
-<ul>
-    <li>Add stationary obstacles.</li>
-    <li>Implement simple sensor-based obstacle avoidance</li>
-</ul>
+Introduces obstacles for interaction and navigation.
 
 ![Obstacle World](images/obstacle_world.png)
 
+---
+
 ### Sensor World
-<ul>
-    <li>Implement simple sensor-based obstacle avoidance using real-time LiDAR data</li>
-    <li>Record and playback data using ‘ros2 bag‘</li>
-    <li>Visualise sensor data using Rviz</li>
-</ul>
+Structured environment for Lidar perception and rosbag recording.
 
 ![Sensor World](images/sensor_world.png)
