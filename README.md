@@ -11,3 +11,6 @@ Also the steps for creating a simulation.
 ## Requirements:
 - ROS2 Jazzy
 - Gazebo Sim
+
+# Robot
+<img>robot/amr.png</img>
