@@ -13,7 +13,7 @@ Also the steps for creating a simulation.
 - Ignition or Gazebo SIm
 
 ## Robot
-![AMR](robot/amr.png)
+![AMR](images/amr.png)
 
 ## Worlds
 ### Clean World
@@ -23,7 +23,7 @@ Also the steps for creating a simulation.
   <li>Direct mapping from TurtleSim concepts</li>
 </ul>
 
-![Clean World](worlds/clean_world/clean_world.png)
+![Clean World](images/clean_world.png)
 
 ### Obstacle World
 <ul>
@@ -31,7 +31,7 @@ Also the steps for creating a simulation.
     <li>Implement simple sensor-based obstacle avoidance</li>
 </ul>
 
-![Obstacle World](worlds/obstacle_world/obstacle_world.png)
+![Obstacle World](images/obstacle_world.png)
 
 ### Sensor World
 <ul>
@@ -40,4 +40,4 @@ Also the steps for creating a simulation.
     <li>Visualise sensor data using Rviz</li>
 </ul>
 
-![Sensor World](worlds/sensor_world/sensor_world.png)
+![Sensor World](images/sensor_world.png)
