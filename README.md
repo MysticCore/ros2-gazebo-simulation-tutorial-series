@@ -22,6 +22,7 @@ Also the steps for creating a simulation.
   <li>Robot movement using /cmd_vel</li>
   <li>Direct mapping from TurtleSim concepts</li>
 </ul>
+
 ![Clean World](worlds/clean_world/clean_world.png)
 
 ### Obstacle World
@@ -29,6 +30,7 @@ Also the steps for creating a simulation.
     <li>Add stationary obstacles.</li>
     <li>Implement simple sensor-based obstacle avoidance</li>
 </ul>
+
 ![Obstacle World](worlds/obstacle_world/obstacle_world.png)
 
 ### Sensor World
@@ -37,4 +39,5 @@ Also the steps for creating a simulation.
     <li>Record and playback data using ‘ros2 bag‘</li>
     <li>Visualise sensor data using Rviz</li>
 </ul>
+
 ![Sensor World](worlds/sensor_world/sensor_world.png)
