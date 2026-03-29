@@ -13,7 +13,6 @@ Also the steps for creating a simulation.
 - Gazebo Sim
 
 ## Robot
-![AMR](robot/amr.png)
 
 ## Worlds
 ### Clean World
