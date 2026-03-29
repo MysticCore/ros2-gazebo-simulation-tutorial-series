@@ -12,5 +12,13 @@ Also the steps for creating a simulation.
 - ROS2 Jazzy
 - Gazebo Sim
 
-# Robot
-<img>robot/amr.png</img>
+## Robot
+![AMR](robot/amr.png)
+
+## Worlds
+### Clean World
+![Clean World](worlds/clean_world/clean_world.png)
+### Obstacle World
+![Obstacle World](worlds/obstacle_world/obstacle_world.png)
+### Sensor World
+![Sensor World](worlds/sensor_world/sensor_world.png)
