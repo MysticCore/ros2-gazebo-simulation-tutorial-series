@@ -5,12 +5,12 @@ Also the steps for creating a simulation.
 
 ## Contents:
 - Clean World: Basic robot movement
-- Obstacle World: Interaction with environment
-- Sensor World: Lidar and rosbag usage
+- Obstacle World: Interaction with obstacles
+- Sensor World: Maze type world with Lidar and rosbag usage
 
 ## Requirements:
-- ROS2 Jazzy
-- Gazebo Sim
+- ROS2 Humble/Jazzy
+- Ignition or Gazebo SIm
 
 ## Robot
 ![AMR](robot/amr.png)
