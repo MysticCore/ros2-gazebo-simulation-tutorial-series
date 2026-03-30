@@ -1,38 +1,88 @@
-# ROS2 Gazebo Simulation Tutorial Series
+# 🚀 ROS2 Gazebo Simulation Tutorial Series
 
-A beginner-friendly ROS2 project designed to bridge the gap between turtlesim and real-world robot simulation using Gazebo.
+This project is my attempt to make ROS2 simulation easier to understand for beginners.
 
-This project introduces a structured learning pipeline using progressively complex environments.
+While learning with turtlesim, I realized that moving to a full simulation environment like Gazebo can feel overwhelming. There isn’t a clear transition step, and that makes it harder to build confidence.
 
-## Overview
-This project provides a structured ROS2 learning pathway from turtlesim to Gazebo simulation.
+So, I created this project to provide a smoother, step-by-step learning path.
 
-It introduces three environments:
-- Clean World → Basic motion
-- Obstacle World → Interaction
-- Sensor World → Lidar and data handling
+---
 
-## Learning Flow
+## 🧠 Learning Idea
 
-turtlesim → Basic Control → Gazebo Simulation → Obstacles → Sensors → RViz Visualization
+Instead of jumping directly into complex simulations, this project follows a gradual progression:
 
-## Repository Structure
+turtlesim → basic motion → simulation → obstacles → sensors → visualization
 
-- worlds/ → Simulation environments (SDF)
-- models/ → Robot model (SDF)
-- urdf/ → Robot description (URDF)
-- launch/ → Launch files
-- images/ → Screenshots and diagrams
+Each stage introduces one new concept, making it easier to understand how real robot systems work.
 
-## Motivation
+---
 
-This project aims to improve beginner onboarding in ROS2 by providing a smooth transition from abstract learning tools to realistic simulation environments.
+## 🌍 Simulation Worlds
 
-## Future Work
+### 🟢 Clean World  
+A simple environment to understand robot movement using `/cmd_vel`.
 
-- Integration with Navigation2 (Nav2)
-- Advanced sensor simulation
-- Autonomous navigation examples
+- Focus on basic motion  
+- No distractions  
+- Helps connect turtlesim concepts to simulation  
+
+![Clean World](images/clean_world.png)
+
+---
+
+### 🟡 Obstacle World  
+Adds obstacles to introduce interaction with the environment.
+
+- Encourages turning and adjustments  
+- Demonstrates basic navigation behavior  
+- Introduces simple real-world constraints  
+
+![Obstacle World](images/obstacle_world.png)
+
+---
+
+### 🔵 Sensor World  
+A structured environment designed for working with sensors.
+
+- Includes Lidar setup  
+- Supports `ros2 bag` recording and playback  
+- Helps visualize sensor data in RViz 
+
+![Sensor World](images/sensor_world.png) 
+
+---
+
+## 🎯 Goals of This Project
+
+- Make ROS2 simulation more approachable  
+- Help beginners move beyond turtlesim  
+- Introduce real simulation concepts step-by-step  
+- Build a foundation for advanced robotics learning  
+
+---
+
+## ⚙️ Requirements
+
+- ROS2 (Jazzy or compatible)  
+- Gazebo Sim  
+- Python  
+
+---
+
+## ▶️ How to Run
+
+```bash
+# Build workspace
+colcon build
+source install/setup.bash
+
+# Launch simulation
+ros2 launch <your_package> clean_world.launch.py
+
+# Control robot
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
 
 ## Robot
 <ul>
@@ -41,24 +91,3 @@ This project aims to improve beginner onboarding in ROS2 by providing a smooth t
 </ul>
 
 ![AMR](images/amr.png)
-
-## Simulation Worlds
-
-### Clean World
-Basic environment for learning robot motion using `/cmd_vel`.
-
-![Clean World](images/clean_world.png)
-
----
-
-### Obstacle World
-Introduces obstacles for interaction and navigation.
-
-![Obstacle World](images/obstacle_world.png)
-
----
-
-### Sensor World
-Structured environment for Lidar perception and rosbag recording.
-
-![Sensor World](images/sensor_world.png)
