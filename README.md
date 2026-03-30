@@ -83,6 +83,7 @@ ros2 launch <your_package> clean_world.launch.py
 # Control robot
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
+---
 
 ## Robot
 <ul>
