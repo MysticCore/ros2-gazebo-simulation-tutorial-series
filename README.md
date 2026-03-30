@@ -86,7 +86,7 @@ colcon build
 source install/setup.bash
 
 # Launch simulation
-ros2 launch <your_package> clean_world.launch.py
+ros2 launch ros2_gazebo_simulation_tutorial clean_world.launch.py
 
 # Control robot
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
