@@ -18,6 +18,14 @@ Each stage introduces one new concept, making it easier to understand how real r
 
 ---
 
+## 🤖 Robot
+<ul>
+<li>A simple Mobile Robot.</li>
+<li>Easier for understanding.</li>
+</ul>
+
+![AMR](images/amr.png)
+
 ## 🌍 Simulation Worlds
 
 ### 🟢 Clean World  
@@ -82,14 +90,3 @@ ros2 launch <your_package> clean_world.launch.py
 
 # Control robot
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
-'''
-
----
-
-## Robot
-<ul>
-<li>A simple Mobile Robot.</li>
-<li>Easier for understanding.</li>
-</ul>
-
-![AMR](images/amr.png)
