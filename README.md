@@ -1,92 +1,111 @@
-# 🚀 ROS2 Gazebo Simulation Tutorial Series
+# 🚀 ROS2 AMR Simulation
 
-This project is my attempt to make ROS2 simulation easier to understand for beginners.
+This project focuses on building and simulating a simple **Autonomous Mobile Robot (AMR)** using ROS2 and Gazebo.
 
-While learning with turtlesim, I realized that moving to a full simulation environment like Gazebo can feel overwhelming. There isn’t a clear transition step, and that makes it harder to build confidence.
-
-So, I created this project to provide a smoother, step-by-step learning path.
+The simulation environment is designed for understanding the core concepts of mobile robotics, robot control, sensor integration, and robot visualization in a realistic simulation setup.
 
 ---
 
-## 🧠 Learning Idea
+# 🤖 AMR Robot
 
-Instead of jumping directly into complex simulations, this project follows a gradual progression:
-
-turtlesim → basic motion → simulation → obstacles → sensors → visualization
-
-Each stage introduces one new concept, making it easier to understand how real robot systems work.
-
----
-
-## 🤖 Robot
 <ul>
-<li>A simple Mobile Robot.</li>
-<li>Easier for understanding.</li>
+<li>A simple Differential Drive Autonomous Mobile Robot (AMR).</li>
+<li>Built for ROS2 and Gazebo simulation.</li>
+<li>Modular and easy to expand for advanced robotics applications.</li>
 </ul>
 
 ![AMR](images/amr.png)
 
-## 🌍 Simulation Worlds
+---
 
-### 🟢 Clean World  
-A simple environment to understand robot movement using `/cmd_vel`.
+# 🌍 Simulation Environments
 
-- Focus on basic motion  
-- No distractions  
-- Helps connect turtlesim concepts to simulation  
+## 🟢 Basic Simulation World
+
+A minimal environment for testing robot motion and control.
+
+### Features
+- Differential drive motion
+- Keyboard teleoperation
+- ROS2 `/cmd_vel` control
+- Gazebo simulation support
+
+### Purpose
+- Robot movement testing
+- Velocity control validation
+- Simulation environment setup
 
 ![Clean World](images/clean_world.png)
 
 ---
 
-### 🟡 Obstacle World  
-Adds obstacles to introduce interaction with the environment.
+## 🟡 Obstacle Environment
 
-- Encourages turning and adjustments  
-- Demonstrates basic navigation behavior  
-- Introduces simple real-world constraints  
+A world containing obstacles for testing robot interaction and movement behavior.
+
+### Features
+- Static obstacles
+- Narrow passages
+- Turning and maneuvering tests
+
+### Purpose
+- Obstacle interaction
+- Motion behavior analysis
+- Navigation testing
 
 ![Obstacle World](images/obstacle_world.png)
 
 ---
 
-### 🔵 Sensor World  
-A structured environment designed for working with sensors.
+## 🔵 Sensor Environment
 
-- Includes Lidar setup  
-- Supports `ros2 bag` recording and playback  
-- Helps visualize sensor data in RViz 
+A structured environment for testing robot sensors and visualization.
 
-![Sensor World](images/sensor_world.png) 
+### Features
+- Lidar integration
+- RViz visualization
+- `ros2 bag` recording and playback
+- Sensor data streaming
 
----
+### Purpose
+- Sensor simulation
+- Data visualization
+- Perception system testing
 
-## 🎯 Goals of This Project
-
-- Make ROS2 simulation more approachable  
-- Help beginners move beyond turtlesim  
-- Introduce real simulation concepts step-by-step  
-- Build a foundation for advanced robotics learning  
-
----
-
-## ⚙️ Requirements
-
-- ROS2 (Jazzy or compatible)  
-- Gazebo Sim  
-- Python  
+![Sensor World](images/sensor_world.png)
 
 ---
 
-## ▶️ How to Run
+# 🎯 Project Goals
+
+- Develop a simple AMR simulation platform
+- Explore ROS2 and Gazebo integration
+- Simulate robot movement and sensing
+- Provide a foundation for autonomous robotics development
+- Support future navigation and perception systems
+
+---
+
+# ⚙️ Requirements
+
+- ROS2 Jazzy (or compatible)
+- Gazebo Sim
+- Python
+- RViz2
+
+---
+
+# ▶️ Running the Simulation
 
 ```bash
 # Build workspace
 colcon build
+
+# Source workspace
 source install/setup.bash
 
 # Launch simulation
-ros2 launch ros2_gazebo_simulation_tutorial clean_world.launch.py
+ros2 launch amr_sim clean_world.launch.py
 
 # Control robot
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
