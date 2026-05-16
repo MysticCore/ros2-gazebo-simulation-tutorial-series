@@ -14,7 +14,7 @@ The simulation environment is designed for understanding the core concepts of mo
 <li>Modular and easy to expand for advanced robotics applications.</li>
 </ul>
 
-![AMR](images/amr.png)
+![AMR](images/amr_rviz.png)
 
 ---
 
