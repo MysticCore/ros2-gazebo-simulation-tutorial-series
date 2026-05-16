@@ -1,8 +1,8 @@
-# Install script for directory: /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/src/amr_description
+# Install script for directory: /home/sam/amr-simulation/ros2_ws/src/amr_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/install/amr_description")
+  set(CMAKE_INSTALL_PREFIX "/home/sam/amr-simulation/ros2_ws/install/amr_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amr_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amr_description")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amr_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/amr_description")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description/environment" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description/environment" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,42 +63,50 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description/environment" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description/environment" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_index/share/ament_index/resource_index/packages/amr_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_index/share/ament_index/resource_index/packages/amr_description")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description/cmake" TYPE FILE FILES
-    "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_core/amr_descriptionConfig.cmake"
-    "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/ament_cmake_core/amr_descriptionConfig-version.cmake"
+    "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_core/amr_descriptionConfig.cmake"
+    "/home/sam/amr-simulation/ros2_ws/build/amr_description/ament_cmake_core/amr_descriptionConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/src/amr_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE FILE FILES "/home/sam/amr-simulation/ros2_ws/src/amr_description/package.xml")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE DIRECTORY FILES
+    "/home/sam/amr-simulation/ros2_ws/src/amr_description/launch"
+    "/home/sam/amr-simulation/ros2_ws/src/amr_description/urdf"
+    "/home/sam/amr-simulation/ros2_ws/src/amr_description/meshes"
+    )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -109,5 +117,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sam/amr-simulation/ros2_ws/build/amr_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

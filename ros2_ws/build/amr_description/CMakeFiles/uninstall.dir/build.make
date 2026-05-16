@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/src/amr_description
+CMAKE_SOURCE_DIR = /home/sam/amr-simulation/ros2_ws/src/amr_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description
+CMAKE_BINARY_DIR = /home/sam/amr-simulation/ros2_ws/build/amr_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/src/amr_description /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/src/amr_description /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description /home/void/ros2-gazebo-simulation-tutorial-series/ros2_ws/build/amr_description/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/sam/amr-simulation/ros2_ws/build/amr_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/amr-simulation/ros2_ws/src/amr_description /home/sam/amr-simulation/ros2_ws/src/amr_description /home/sam/amr-simulation/ros2_ws/build/amr_description /home/sam/amr-simulation/ros2_ws/build/amr_description /home/sam/amr-simulation/ros2_ws/build/amr_description/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 
