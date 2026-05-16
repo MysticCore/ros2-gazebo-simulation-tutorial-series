@@ -25,3 +25,4 @@
 /home/sam/amr-simulation/ros2_ws/install/amr_description/share/amr_description/meshes/f_wheel_r.stl
 /home/sam/amr-simulation/ros2_ws/install/amr_description/share/amr_description/meshes/base_link.stl
 /home/sam/amr-simulation/ros2_ws/install/amr_description/share/amr_description/meshes/f_wheel_l.stl
+/home/sam/amr-simulation/ros2_ws/install/amr_description/share/amr_description/rviz/amr.rviz

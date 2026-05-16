@@ -106,6 +106,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/sam/amr-simulation/ros2_ws/src/amr_description/launch"
     "/home/sam/amr-simulation/ros2_ws/src/amr_description/urdf"
     "/home/sam/amr-simulation/ros2_ws/src/amr_description/meshes"
+    "/home/sam/amr-simulation/ros2_ws/src/amr_description/rviz"
     )
 endif()
 
